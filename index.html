@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img src="img/logo.png" alt="SG logo" class="logo" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li>
+            <a class="main-nav-link" href="#work">My work</a>
+          </li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Hi there, <br />I'm <span class="hero-name">Stefan!</span>
+            </h1>
+            <p class="hero-description">
+              Fuelled by a passion for designing compelling products, I have a
+              deep desire to excel and continuously improve in my work.
+            </p>
+
+            <a href="#cta" class="btn btn--full margin-right-sm">Contact me</a>
+            <a href="#about" class="btn btn--outline">Learn more &darr;</a>
+          </div>
+          <img src="img/banner-image.svg" alt="Hero image" class="hero-img" />
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="about">
+          <div class="about-info">
+            <span class="subheading">About me</span>
+            <h2 class="heading-secondary">My career so far</h2>
+            <p class="about-description">
+              Always up for a challenge, I have worked for lean start-ups and
+              was a member of the first New Zealand start-up to attend Y
+              Combinator, the largest start-up accelerator in the world. From
+              there, I worked my way up to Art Director and Team Lead at Appster
+              where I oversaw the design of 30+ mobile and desktop apps.
+              Currently, I lead UI/UX design at SaaS start-up VideoMyJob.
+            </p>
+          </div>
+          <div class="about-services">
+            <div class="service-name-text">HTML/CSS</div>
+            <div class="service-name-text">Javascript</div>
+            <div class="service-name-text">UI Design</div>
+            <div class="service-name-text">UX Design</div>
+            <div class="service-name-text">Prototyping</div>
+            <div class="service-name-text">Wireframing</div>
+            <div class="service-name-text">Branding</div>
+            <div class="service-name-text">User research</div>
+            <div class="service-name-text">Information Architecture</div>
+            <div class="service-name-text">Leadership</div>
+            <div class="service-name-text">Adobe XD</div>
+            <div class="service-name-text">Adobe Photoshop</div>
+            <div class="service-name-text">Adobe Illustrator</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-work" id="work">
+        <div class="work">
+          <span class="subheading">My work</span>
+          <h2 class="heading-secondary">Recent projects</h2>
+          <div class="work-cards">
+            <div class="work-card">
+              <a href="https://stekatag.github.io/omnifood/" class="work-image" target="_blank">
+                <img src="img/omnifood.png" alt="omnifood" />
+                <p class="work-text">Omnifood Project</p>
+              </a>
+            </div>
+            <div class="work-card">
+              <a href="https://quality-programming.github.io/karlovo/" class="work-image" target="_blank">
+                <img src="img/karlovo.jpg" alt="Karlovo" />
+                <p class="work-text work-text-karlovo">Karlovo Project</p>
+              </a>
+            </div>
+            <div class="work-card">
+              <a href="https://stekatag.github.io/suiss/" class="work-image" target="_blank">
+                <img src="img/suiss.png" alt="Switzerland" />
+                <p class="work-text work-text-suiss">Switzerland Project</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Want to get in touch?</h2>
+              </div>
+              <div class="cta-form-container">
+
+                <form class="cta-form" action="#">
+                  <div class="name-email-flex">
+
+                    <div>
+                      <label for="full-name">Full name</label>
+                      <input
+                      id="full-name"
+                      type="text"
+                      placeholder="Enter your name"
+                      required
+                      />
+                    </div>
+                    
+                    <div>
+                      <label for="email">Email address</label>
+                      <input
+                      id="email"
+                      type="email"
+                      placeholder="me@example.com"
+                      required
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label for="textarea">Message</label>
+                    <textarea
+                    name="textarea"
+                    id="textarea"
+                    placeholder="Enter your message"
+                    class="cta-textarea"
+                    cols="30"
+                    rows="10"
+                    ></textarea>
+                  </div>
+                  
+                  <button class="btn btn--form">Submit</button>
+                </form>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>This page is made for learning purposes only. Copyright © 2022 Stefan Gogov. All rights reserved.</footer>
+  </body>
+</html>
