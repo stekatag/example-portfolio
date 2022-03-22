@@ -136,6 +136,11 @@
   width: 100%;
 }
 
+.btns-container {
+  display: flex;
+  gap: 1.6rem;
+}
+
 /******************************/
 /* ABOUT SECTION*/
 /******************************/

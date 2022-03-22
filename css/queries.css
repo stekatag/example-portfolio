@@ -152,6 +152,10 @@
 /******************************/
 
 @media (max-width: 34em) {
+  .btns-container {
+    flex-direction: column;
+  }
+
   .about-img {
     width: 100%;
   }
