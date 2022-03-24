@@ -74,15 +74,15 @@ body {
   display: flex;
 }
 
-/* ::selection {
-  background: #ff9292ca;
-} */
+::selection {
+  background: #e1697c;
+}
 
-/* *:focus {
+*:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem #e622228e;
+  box-shadow: 0 0 0 0.8rem #e1697b8c;
   transition: all 200ms;
-} */
+}
 
 /******************************/
 /* GENERAL REUSABLE COMPONENTS */
