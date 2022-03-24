@@ -77,6 +77,10 @@
     justify-self: center;
   }
 
+  .btns-container {
+    justify-content: center;
+  }
+
   .work-cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -175,6 +179,14 @@
   .carousel img {
     height: auto;
     width: 70%;
+  }
+
+  .cta-form-container {
+    padding: 3.6rem;
+  }
+
+  .btn.btn--form {
+    align-self: center;
   }
 }
 
