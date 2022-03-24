@@ -376,6 +376,7 @@
 
 .name-email-flex {
   display: flex;
+  justify-content: space-between;
   gap: 3.2rem;
 }
 
@@ -396,7 +397,7 @@
 .cta-form select,
 .cta-textarea {
   width: 100%;
-  padding: 1.2rem;
+  padding: 1.2rem 1.8rem 1.2rem 1.2rem;
   font-size: 1.6rem;
   font-family: inherit;
   color: inherit;
